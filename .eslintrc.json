@@ -1,3 +1,12 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "module.exports" : {
+    // other configuration options
+    "rules": {
+      // other rules
+      "react/jsx-key": "off", // or 'warn'
+      // other rules
+    },
+  }
+  
 }
